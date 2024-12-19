@@ -283,8 +283,8 @@ class _GoogleMapScreenState extends State<GoogleMapScreen> {
                           fontWeight: FontWeight.w400,
                           fontFamily: "Muli",
                           fontSize: 13),
-                      suffixIcon: const Padding(
-                          padding: EdgeInsets.only(left: 10, right: 10),
+                      suffixIcon: Padding(
+                          padding: const EdgeInsets.only(left: 10, right: 10),
                           child: Icon(Icons.search, color: Colors.black)),
                       suffixIconConstraints:
                           const BoxConstraints(minHeight: 30, maxWidth: 40),
